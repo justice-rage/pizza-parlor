@@ -11,9 +11,7 @@ Pizza.prototype.addToppings = function(toppings) {
   this.topping.push(toppings);
 }
 
-const pizza1 = new Pizza('small');
-const pizza2 = new Pizza('medium');
-const pizza3 = new Pizza('large');
+const pizzaOrder = new Pizza('', 'large');
 
 // Function: Order Pricing
 Pizza.prototype.price = function() {
@@ -35,28 +33,10 @@ Pizza.prototype.price = function() {
       break;
   };
 
-  // Pricing: Pizza Toppings
-  this.addToppings.forEach(function() {
-    toppingPrice += 1;
-  })
-
-  // switch (this.topping) {
-  //   case "anchovie":
-  //     toppingPrice = 1;
-  //     break;
-  //   case "pepperoni":
-  //     toppingPrice = 2;
-  //     break;
-  //   case "artichoke":
-  //     toppingPrice = 3;
-  //     break;
-  //   case "cheese":
-  //     toppingPrice = 4;
-  //     break;
-  // };
+  // Pricing: Pizza Toppings - Each topping costs $1
+  toppingPrice = pizzaOrder.topping.length;
 
   // Pricing: Add size and topping selection for order total
-  // const orderTotal = sizePrice + toppingPrice;
   const orderTotal = sizePrice + toppingPrice;
   return orderTotal;
 }
