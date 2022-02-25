@@ -2,13 +2,18 @@
 
 // Constructor Function: Pizza
 function Pizza(topping, size) {
-  this.topping = topping;
+  this.topping = [];
   this.size = size;
 }
 
-const pizza1 = new Pizza('anchovie', 'small');
-const pizza2 = new Pizza('pepperoni', 'medium');
-const pizza3 = new Pizza('cheese', 'large');
+// Function: Pushes customer requested toppings into topping array
+Pizza.prototype.addToppings = function(toppings) {
+  this.topping.push(toppings);
+}
+
+const pizza1 = new Pizza('small');
+const pizza2 = new Pizza('medium');
+const pizza3 = new Pizza('large');
 
 // Function: Order Pricing
 Pizza.prototype.price = function() {
@@ -31,20 +36,24 @@ Pizza.prototype.price = function() {
   };
 
   // Pricing: Pizza Toppings
-  switch (this.topping) {
-    case "anchovie":
-      toppingPrice = 1;
-      break;
-    case "pepperoni":
-      toppingPrice = 2;
-      break;
-    case "artichoke":
-      toppingPrice = 3;
-      break;
-    case "cheese":
-      toppingPrice = 4;
-      break;
-  };
+  this.addToppings.forEach(function() {
+    toppingPrice += 1;
+  })
+
+  // switch (this.topping) {
+  //   case "anchovie":
+  //     toppingPrice = 1;
+  //     break;
+  //   case "pepperoni":
+  //     toppingPrice = 2;
+  //     break;
+  //   case "artichoke":
+  //     toppingPrice = 3;
+  //     break;
+  //   case "cheese":
+  //     toppingPrice = 4;
+  //     break;
+  // };
 
   // Pricing: Add size and topping selection for order total
   // const orderTotal = sizePrice + toppingPrice;
