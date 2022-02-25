@@ -2,7 +2,7 @@
 
 ---
 
-## Describe: Pizza()
+# Describe: Pizza()
 
 - Test 1: "It should return a pizza object with two properties for toppings and size"
 - Code: const pizzaOrder = new Pizza(["anchovies", "pepperoni"], "medium");
@@ -18,7 +18,7 @@
 
 ---
 
-## Describe: price()
+# Describe: price()
 
 - Test 3: "It should return the orderTotal according to the pizza1 object size and topping value"
 - Code: pizza1.price("anchovie", "small");
@@ -26,7 +26,7 @@
 
 ---
 
-## Describe: addToppings()
+# Describe: addToppings()
 
 - Test 4: "It should push a requested topping into the pizza1 topping array"
 - Code: pizza1.addTopping("anchovie");
@@ -34,7 +34,7 @@
 
 ---
 
-## Describe: price()
+# Describe: price()
 
 - Test 5: "It should return the length of the topping array and add it to toppingPrice"
 - Code: pizzaOrder.addTopping("anchovie");
