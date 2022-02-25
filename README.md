@@ -15,3 +15,11 @@ Code: pizza1.price("small");
 Expected Output: 5
 
 ------------------
+
+Describe: price()
+
+Test 3: "It should return the orderTotal according to the pizza1 object size and topping value"
+Code: pizza1.price("anchovie", "small");
+Expected Output: 6
+
+-----------------
