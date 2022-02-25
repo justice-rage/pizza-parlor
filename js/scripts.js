@@ -1,5 +1,7 @@
 'use strict';
 
+// Business Logic
+
 // Constructor Function: Pizza
 function Pizza(topping, size) {
   this.topping = [];
