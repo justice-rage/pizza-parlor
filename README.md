@@ -23,3 +23,11 @@ Code: pizza1.price("anchovie", "small");
 Expected Output: 6
 
 -----------------
+
+Describe: addToppings()
+
+Test 4: "It should push a requested topping into the pizza1 topping array"
+Code: pizza1.addTopping("anchovie");
+Expected Output: pizza1.topping = ['anchovie']
+
+-----------------
