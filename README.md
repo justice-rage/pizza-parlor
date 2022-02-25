@@ -31,3 +31,9 @@ Code: pizza1.addTopping("anchovie");
 Expected Output: pizza1.topping = ['anchovie']
 
 -----------------
+
+Describe: price()
+
+Test 5: "It should return the length of the topping array and add it to toppingPrice"
+Code: pizzaOrder.addTopping("anchovie");
+Expected Output: toppingPrice = 1
