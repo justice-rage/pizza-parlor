@@ -75,8 +75,7 @@ $(document).ready(function() {
     console.log(requestedPizzaSize, requestedPizzaToppings);
     console.log(pizzaOrder);
     console.log(totalPizzaOrderPrice);
-    // console.log(pizzaOrder);
 
-    // $(".result").text(cleanedUserInput);
+    $(".final-pizza-cost").text(totalPizzaOrderPrice);
   });
 });
