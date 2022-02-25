@@ -18,8 +18,6 @@
 
 ---
 
-### Describe: price()
-
 - Test 3: "It should return the orderTotal according to the pizza1 object size and topping value"
 - Code: pizza1.price("anchovie", "small");
 - Expected Output: 6
@@ -34,7 +32,7 @@
 
 ---
 
-# Describe: price()
+### Describe: price()
 
 - Test 5: "It should return the length of the topping array and add it to toppingPrice"
 - Code: pizzaOrder.addTopping("anchovie");
