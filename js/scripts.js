@@ -42,3 +42,5 @@ Pizza.prototype.price = function() {
   const orderTotal = sizePrice + toppingPrice;
   return orderTotal;
 }
+
+// User Interface 
