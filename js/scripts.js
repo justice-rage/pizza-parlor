@@ -13,6 +13,7 @@ Pizza.prototype.addToppings = function(toppings) {
   this.topping.push(toppings);
 }
 
+// Variable: Customer pizza order
 const pizzaOrder = new Pizza('', 'large');
 
 // Function: Order Pricing
