@@ -24,13 +24,13 @@ Pizza.prototype.price = function() {
 
   // Pricing: Pizza Size
   switch (this.size) {
-    case "small":
+    case 'small':
       sizePrice = 5;
       break;
-    case "medium":
+    case 'medium':
       sizePrice = 10;
       break;
-    case "large":
+    case 'large':
       sizePrice = 15;
       break;
   };
