@@ -67,7 +67,10 @@ $(document).ready(function() {
     // const addPizzaSizeToOrder = pizzaOrder.price(requestedPizzaSize);
 
     let pizzaOrder = new Pizza();
-    pizzaOrder.addToppings(requestedPizzaToppings);
+
+    // const requestedPizzaToppingsTransformedIntoArray = requestedPizzaToppings.split(',');
+
+    pizzaOrder.addToppings(requestedPizzaToppings.split(','));
     pizzaOrder.addSize(requestedPizzaSize);
 
     let totalPizzaOrderPrice = pizzaOrder.price();
