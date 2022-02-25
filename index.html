@@ -21,31 +21,26 @@
               <li>
                 <div>
                 <!-- question 1 -->
-                  <label for="topping-options">Choose your pizza toppings from the selections below:</label>
+                  <label for="topping-options">Select the size of your pizza below:</label>
                   <select id="topping-options">
-                    <option value="cheese">Cheese</option>
-                    <option value="pepperoni">Pepperoni</option>
-                    <option value="artichoke">Artichoke</option>
-                    <option value="anchovy">Anchovy</option>
-                  </select>
-                </div>
-              </li>
-              <li>
-                <div>
-                <!-- question 2 -->
-                  <label for="size-options">Select the size of your pizza below:</label>
-                  <select id="size-options">
                     <option value="small">Small</option>
                     <option value="medium">Medium</option>
                     <option value="large">Large</option>
                   </select>
                 </div>
               </li>
+              <li>
+                <div>
+                <!-- question 2 -->
+                  <label for="requested-toppings">Request your favorite toppings here and our pizza topping hunters will begin their search:</label>
+                  <input id="requested-toppings" type="text">
+                </div>
+              </li>
+              <br>
             <div>
               <!-- submit pizza order button -->
               <button type="submit" class="btn btn-success">Submit</button>
             </div>
-            
           </form>
         </div>
         
@@ -53,6 +48,7 @@
       <div id="final-cost" class="">
         <h2>Order Total</h2>
         <p class="final-pizza-cost"></p>
+
       </div>
     </div>
   </div>
