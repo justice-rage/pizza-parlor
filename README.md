@@ -10,6 +10,8 @@ Expected Output: Pizza { topping: ["anchovies", "pepperoni"], size: "medium"}
 
 Describe: price()
 
-Test 2: "It should return the orderTotal from the two parameters of pizzaSize and pizzaTopping"
-Code: price("small", 1);
-Expected Output: 6
+Test 2: "It should return the orderTotal according to the pizza1 object size value"
+Code: pizza1.price("small");
+Expected Output: 5
+
+------------------
