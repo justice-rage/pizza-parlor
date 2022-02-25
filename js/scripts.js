@@ -31,23 +31,23 @@ Pizza.prototype.price = function() {
   };
 
   // Pricing: Pizza Toppings
-  // switch (this.topping) {
-  //   case 1:
-  //     toppingPrice = 1;
-  //     break;
-  //   case 2:
-  //     toppingPrice = 2;
-  //     break;
-  //   case 3:
-  //     toppingPrice = 3;
-  //     break;
-  //   case 4:
-  //     toppingPrice = 4;
-  //     break;
-  // };
+  switch (this.topping) {
+    case "anchovie":
+      toppingPrice = 1;
+      break;
+    case "pepperoni":
+      toppingPrice = 2;
+      break;
+    case "artichoke":
+      toppingPrice = 3;
+      break;
+    case "cheese":
+      toppingPrice = 4;
+      break;
+  };
 
   // Pricing: Add size and topping selection for order total
   // const orderTotal = sizePrice + toppingPrice;
-  const orderTotal = sizePrice
+  const orderTotal = sizePrice + toppingPrice;
   return orderTotal;
 }
