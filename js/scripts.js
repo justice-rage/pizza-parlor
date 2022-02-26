@@ -54,6 +54,6 @@ $(document).ready(function() {
     pizzaOrder.addSize(requestedPizzaSize);
 
     let totalPizzaOrderPrice = pizzaOrder.price();
-    $(".final-pizza-cost").text(`$${totalPizzaOrderPrice}.00`);
+    $(".final-pizza-cost").text(`$${totalPizzaOrderPrice}.00 🤑`);
   });
 });
