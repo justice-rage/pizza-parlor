@@ -6,11 +6,11 @@
 
 ## Technologies Used
 
-* _JavaScript_
-* _HTML_
-* _CSS_
-* _jQuery_
 * _Bootstrap_
+* _CSS_
+* _HTML_
+* _JavaScript_
+* _jQuery_
 
 ## Description
 
