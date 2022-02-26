@@ -45,3 +45,11 @@
 - Test 6: "It should push the selected pizza size into the size array"
 - Code: pizzaOrder.addSize("small");
 - Expected Output: pizzaOrder.size = ['small]
+
+---
+
+### Describe: price()
+
+- Test 7: "It should return the length of the topping array and add it to toppingPrice when there is more than one topping requested"
+- Code: pizzaOrder.addTopping("pepperonie, olives");
+- Expected Output: toppingPrice = 2
