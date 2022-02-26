@@ -26,8 +26,6 @@ _A pizza restaurant website where a user can choose one or more individual toppi
 
 * _Failing to list toppings utilizing commas will output the cost of one through infinity toppings as only $1.00_
 
----
-
 ## Tests:
 
 ### Describe: Pizza()
