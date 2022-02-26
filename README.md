@@ -14,7 +14,7 @@
 
 ## Description
 
-_A pizza restaurant website where a user can choose one or more individual toppings and a size to order a pizza and see the final cost. USers can select pizza sizes from small through large and can choose any and all pizza toppings of their dreams. Do keep in mind, while ordering toppings you must write it out as follows: pepperoni, pineapple, cactus pear, peanut butter_
+_A pizza restaurant website where a user can choose one or more individual toppings and a size to order a pizza and see the final cost. USers can select pizza sizes from small through large and can choose any and all pizza toppings of their dreams. Do keep in mind, while ordering toppings you must write it out as follows as an example: pepperoni, pineapple, cactus pear, peanut butter_
 
 ## Setup/Installation Requirements
 
@@ -29,8 +29,6 @@ _A pizza restaurant website where a user can choose one or more individual toppi
 ---
 
 ## Tests:
-
----
 
 ### Describe: Pizza()
 
@@ -88,6 +86,6 @@ _A pizza restaurant website where a user can choose one or more individual toppi
 
 ## License
 
-Licensed under the (MIT License)[https://choosealicense.com/licenses/mit/]
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 Copyright (c) _02/25/2022_ _Justice Douglas_
