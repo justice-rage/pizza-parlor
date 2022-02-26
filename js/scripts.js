@@ -45,7 +45,9 @@ Pizza.prototype.price = function() {
 
   // Pricing: Pizza Toppings - Each topping costs $1
   // toppingPrice = pizzaOrder.topping.length;
-  toppingPrice = this.topping.length;
+  const turnUserToppingInputIntoOneArray = this.topping.flat();
+  // toppingPrice = this.topping.length;
+  toppingPrice = turnUserToppingInputIntoOneArray.length;
 
   // Pricing: Add size and topping selection for order total
   const orderTotal = sizePrice + toppingPrice;
