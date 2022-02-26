@@ -81,6 +81,6 @@ $(document).ready(function() {
     console.log(pizzaOrder);
     console.log(totalPizzaOrderPrice);
 
-    $(".final-pizza-cost").text(totalPizzaOrderPrice);
+    $(".final-pizza-cost").text(`$${totalPizzaOrderPrice}.00`);
   });
 });
