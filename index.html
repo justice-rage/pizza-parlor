@@ -5,15 +5,25 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Pizza Parlor</title>
+  <title>Willy Pepperoni's Pizza Factory</title>
 </head>
 <body>
   <div class="container">
-
     <div>
-      <h1>Pizza Parlor</h1>
-
-      <p class="instructions">Hello Pizza lover. Please select from the size and toppings options below to receive the pizza of your dreams:</p>
+      <h1>Willy Pepperoni's Pizza Factory 🍕</h1>
+      <h4>Guest Instructions</h4>
+      <p class="introduction">Hello explorer, welcome to the Willy Pepperoni's Pizza Factory! You have stumbled across one of the worlds best kept secrets. Here at the Pizza Factory it is possibe to order any pizza topping of your liking. As you can imagine some of our clientele get rather adventurous with their toppings. We encourage our patrons to be on their best behavior, in case one of our regulars requests you as a topping. And we never dissapoint.🔪 🍖</p>
+      <h5>Pricing</h5>
+      <h6>Pizza Sizes</h6>
+      <ul>
+        <li>Small: $5.00</li>
+        <li>Medium: $10.00</li>
+        <li>Large: $15.00</li>
+      </ul>
+      <h6>Toppings</h6>
+      <p>Each topping adds an additional $1.00 to orders.</p>
+      <p>If no toppings are selected a mystery topping is automatically added.</p>
+      <p>Special Note: To request toppings you must write your selections in the following format - pizza, olives, peanut butter</p>
       <!-- pizza selection questions -->
         <div>
           <form id="input-form">
@@ -21,7 +31,7 @@
               <li>
                 <div>
                 <!-- question 1 -->
-                  <label for="requested-size">Select the size of your pizza below:</label>
+                  <label for="requested-size">Select Pizza Size:</label>
                   <select id="requested-size">
                     <option value="small">Small</option>
                     <option value="medium">Medium</option>
@@ -32,7 +42,7 @@
               <li>
                 <div>
                 <!-- question 2 -->
-                  <label for="requested-toppings">Request your favorite toppings here and our pizza topping hunters will begin their search:</label>
+                  <label for="requested-toppings">Request your most ridiculous topping requests here:</label>
                   <input id="requested-toppings" type="text">
                 </div>
               </li>
@@ -43,12 +53,10 @@
             </div>
           </form>
         </div>
-        
       <!-- final cost results -->
       <div id="final-cost" class="">
         <h2>Order Total</h2>
         <p class="final-pizza-cost"></p>
-
       </div>
     </div>
   </div>
