@@ -24,13 +24,11 @@
       <p>Each topping adds an additional $1.00 to orders.</p>
       <p>If no toppings are selected a mystery topping is automatically added.</p>
       <p>Special Note: To request toppings you must write your selections in the following format - pizza, olives, peanut butter</p>
-      <!-- pizza selection questions -->
         <div>
           <form id="input-form">
             <ol>
               <li>
                 <div>
-                <!-- question 1 -->
                   <label for="requested-size">Select Pizza Size:</label>
                   <select id="requested-size">
                     <option value="small">Small</option>
@@ -41,19 +39,16 @@
               </li>
               <li>
                 <div>
-                <!-- question 2 -->
                   <label for="requested-toppings">Request your most ridiculous topping requests here:</label>
                   <input id="requested-toppings" type="text">
                 </div>
               </li>
-              <br>
+            </ol>
             <div>
-              <!-- submit pizza order button -->
-              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </form>
         </div>
-      <!-- final cost results -->
       <div id="final-cost" class="">
         <h2>Order Total</h2>
         <p class="final-pizza-cost"></p>
