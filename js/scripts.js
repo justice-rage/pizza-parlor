@@ -44,11 +44,15 @@ Pizza.prototype.price = function() {
 $(document).ready(function() {
   $("form#input-form").submit(function(event) {
     event.preventDefault();
+
     let pizzaOrder = new Pizza();
+
     const requestedPizzaSize = $("#requested-size").val();
     const requestedPizzaToppings = $("input#requested-toppings").val();
+
     pizzaOrder.addToppings(requestedPizzaToppings.split(','));
     pizzaOrder.addSize(requestedPizzaSize);
+    
     let totalPizzaOrderPrice = pizzaOrder.price();
     $(".final-pizza-cost").text(`$${totalPizzaOrderPrice}.00`);
   });
