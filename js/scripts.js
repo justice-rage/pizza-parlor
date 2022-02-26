@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     pizzaOrder.addToppings(requestedPizzaToppings.split(','));
     pizzaOrder.addSize(requestedPizzaSize);
-    
+
     let totalPizzaOrderPrice = pizzaOrder.price();
     $(".final-pizza-cost").text(`$${totalPizzaOrderPrice}.00`);
   });
