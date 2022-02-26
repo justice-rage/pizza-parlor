@@ -1,40 +1,32 @@
 # _Pizza Parlor_
 
-#### By _**{List of contributors}**_
+#### By _**Justice Douglas**_
 
-#### _{Brief description of application}_
+#### _A pizza restaurant website where a user can choose one or more individual toppings and a size to order a pizza and see the final cost._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _JavaScript_
+* _HTML_
+* _CSS_
+* _jQuery_
+* _Bootstrap_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_A pizza restaurant website where a user can choose one or more individual toppings and a size to order a pizza and see the final cost. USers can select pizza sizes from small through large and can choose any and all pizza toppings of their dreams. Do keep in mind, while ordering toppings you must write it out as follows: pepperoni, pineapple, cactus pear, peanut butter_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Clone project from Github repository to local machine_
+* _Navigate to your file manager and click on the HTML file to open in your browser._
+* _You should now be able to order your pizza_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Failing to list toppings utilizing commas will output the cost of one through infinity toppings as only $1.00_
 
-## License
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-Copyright (c) _date_ _author name(s)_
+---
 
 ## Tests:
 
@@ -91,3 +83,11 @@ Copyright (c) _date_ _author name(s)_
 - Test 7: "It should return the length of the topping array and add it to toppingPrice when there is more than one topping requested"
 - Code: pizzaOrder.addTopping("pepperonie, olives");
 - Expected Output: toppingPrice = 2
+
+---
+
+## License
+
+Licensed under the (MIT License)[https://choosealicense.com/licenses/mit/]
+
+Copyright (c) _02/25/2022_ _Justice Douglas_
